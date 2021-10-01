@@ -1,0 +1,15 @@
+{
+  "name": "elm-pages-app",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "start": "elm-pages dev",
+    "build": "elm-pages build"
+  },
+  "devDependencies": {
+    "elm": "^0.19.1-5",
+    "elm-optimize-level-2": "^0.1.5",
+    "elm-pages": "2.1.9",
+    "elm-review": "^2.5.5",
+    "elm-tooling": "^1.4.0"
+  }
+}
