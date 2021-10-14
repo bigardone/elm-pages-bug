@@ -8,7 +8,7 @@
   "devDependencies": {
     "elm": "^0.19.1-5",
     "elm-optimize-level-2": "^0.1.5",
-    "elm-pages": "2.1.9",
+    "elm-pages": "j-maas/elm-pages.git#fix-base-trailing-slash",
     "elm-review": "^2.5.5",
     "elm-tooling": "^1.4.0"
   }

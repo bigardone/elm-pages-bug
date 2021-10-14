@@ -592,10 +592,9 @@ elm-optimize-level-2@^0.1.5:
     ts-union "^2.2.1"
     typescript "^3.9.7"
 
-elm-pages@2.1.9:
+"elm-pages@git+ssh://git@github.com/j-maas/elm-pages.git#fix-base-trailing-slash":
   version "2.1.9"
-  resolved "https://registry.yarnpkg.com/elm-pages/-/elm-pages-2.1.9.tgz#e7f787fbc073413baad2f81ecaba172dc54e701b"
-  integrity sha512-VeCbtSNH5CW2G5m/uJcTYSRIQ2Y6bhYTZtRbNftKUBXn/oIMYrB6sqrUqV+WVTBs2hedCQQYZnaeZ/uWxqcIwQ==
+  resolved "git+ssh://git@github.com/j-maas/elm-pages.git#cbad8ad8ad9c0c130b4835da696e97482867d6bc"
   dependencies:
     chokidar "3.5.2"
     commander "^8.1.0"

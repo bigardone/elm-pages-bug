@@ -1,5 +1,7 @@
 FROM node:14-alpine3.13 as source
 
+RUN apk add --no-cache git
+
 ENV ELM_HOME "elm/cache"
 
 RUN mkdir -p /usr/src/app
